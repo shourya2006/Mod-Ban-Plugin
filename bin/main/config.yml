@@ -1,0 +1,38 @@
+# ServerSideAntiCheat Configuration
+
+# Message sent to kicked players
+kick-message: "&c[AntiCheat] &fUnapproved client modification detected: &e%reason%"
+
+# 1. Banned Brands (Catches entire loaders or hacked clients)
+# Usually sent in the MC|Brand or minecraft:brand payload
+banned-brands:
+  - "meteor"
+  - "wurst"
+  - "forge"
+  - "aristois"
+  - "liquidbounce"
+  - "future"
+  - "vape"
+
+# 2. Banned Channels (Catches mods that broadcast custom channels)
+banned-channels:
+  - "litematica:main"
+  - "journeymap:common"
+  - "wurst:wurst"
+
+# 3. Banned Mod IDs (Auto-Fetcher)
+# The plugin will fetch the latest Modrinth version, extract a translation key, 
+# and stealthily probe connecting clients. Memory footprint is near zero.
+banned-mod-ids:
+  - "tweakeroo"
+  - "xaeros-minimap"
+  - "xaeros-world-map"
+  - "freecam"
+  - "wi-freecam"
+  - "camera-enhancements"
+  - "freecam_yannis_"
+  - "easy-freecam"
+  - "journeymap"
+  - "legacyfreecam"
+  - "aether-freecam"
+  - "xaeros-minimap-fair"

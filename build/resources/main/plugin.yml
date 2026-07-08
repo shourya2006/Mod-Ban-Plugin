@@ -1,0 +1,7 @@
+name: ServerSideAntiCheat
+version: 1.0.0
+main: com.serverside.anticheat.ServerSideAntiCheat
+api-version: 1.13
+depend: [ProtocolLib]
+description: A purely server-sided anti-cheat relying on channel and translation probing.
+author: ArcLgenD
